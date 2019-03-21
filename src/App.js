@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Card from './components/Card';
 import friends from './friends.json';
 import Wrapper from './components/wrapper';
-import Nav from './components/Nav';
+// import Nav from './components/Nav';
 
 
 

@@ -3,6 +3,8 @@ import Card from './components/Card';
 import friends from './friends.json';
 import Wrapper from './components/wrapper';
 import Title from './components/Title';
+
+
 // import Nav from './components/Nav';
 
 
@@ -62,9 +64,11 @@ class App extends Component {
                  key={friends.id}
                  image={friends.image}
               />
-               
+            
           ))}
+        
           </Wrapper>
+         
          
         
     )

@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import Card from './components/Card';
 import friends from './friends.json';
 import Wrapper from './components/wrapper';
+import Title from './components/Title';
 // import Nav from './components/Nav';
-
 
 
 //Game starts with a score of 0
@@ -16,6 +16,7 @@ import Wrapper from './components/wrapper';
 
 
 class App extends Component {
+
   state = {
     friends,
     clickedPics: [],
@@ -48,12 +49,11 @@ class App extends Component {
     } 
   
   render() {
+    
     return (
       
       <Wrapper>
-
-        
-
+      <Title></Title>
         
           {this.state.friends.map(friends => (
             <Card
@@ -65,8 +65,8 @@ class App extends Component {
                
           ))}
           </Wrapper>
-
-
+         
+        
     )
   }
 

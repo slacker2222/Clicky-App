@@ -55,7 +55,11 @@ class App extends Component {
     return (
       
       <Wrapper>
-      <Title></Title>
+      <Title> 
+        total={this.state.score}
+        goal={12}
+        message={this.state.message}
+      </Title>
         
           {this.state.friends.map(friends => (
             <Card

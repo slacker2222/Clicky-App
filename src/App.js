@@ -54,19 +54,19 @@ class App extends Component {
     return (
       
       <Wrapper>
-      <Title> 
+      <Title 
         total={this.state.score}
         goal={12}
         message={this.state.message}
+        >
       </Title>
         
           {this.state.friends.map(friends => (
-            <Card
-                 shufflePics={this.shufflePics}
-                 id={friends.id}
+            <Card shufflePics={this.shufflePics} id={friends.id}
                  key={friends.id}
                  image={friends.image}
-              />
+              >
+              </Card>
             
           ))}
         

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Card from './components/Card';
 import friends from './friends.json';
-import Wrapper from './components/wrapper';
+import Wrapper from './components/Wrapper';
 import Title from './components/Title';
 
 

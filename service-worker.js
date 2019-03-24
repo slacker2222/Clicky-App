@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/slacker2222/Clicky-App/precache-manifest.d6b55696928e5140a15608776b40c64d.js"
+  "/Clicky-App/precache-manifest.1f8c046ad8386642c6de2a505beb13e0.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/slacker2222/Clicky-App/index.html", {
+workbox.routing.registerNavigationRoute("/Clicky-App/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

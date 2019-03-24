@@ -3,6 +3,7 @@
     color: rgb(18, 19, 18);
     text-align: center;
     background-color:rgb(95, 255, 47);
+    border: 1px solid black;
     padding-top: 50px;
     padding-bottom: 50px;
 }

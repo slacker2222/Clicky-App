@@ -61,10 +61,10 @@ class App extends Component {
         >
       </Title>
         
-          {this.state.friends.map(friends => (
-            <Card shufflePics={this.shufflePics} id={friends.id}
-                 key={friends.id}
-                 image={friends.image}
+          {this.state.friends.map(friend => (
+            <Card shufflePics={this.shufflePics} id={friend.id}
+                 key={friend.id}
+                 image={friend.image}
               >
               </Card>
             

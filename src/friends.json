@@ -2,50 +2,50 @@
   {
     "id": 1,
     "name": "Gilligan",
-    "image": "/images/Gilligan.png"
+    "image": "./images/Gilligan.png"
   },
   
   {
     "id": 2,
     "name": "Gilligan Dracula",
-    "image": "/images/GilliganDrac.png"
+    "image": "./images/GilliganDrac.png"
   },
 
   {
     "id": 3,
     "name": "Mary Ann",
-    "image": "/images/MaryAnn.png"
+    "image": "./images/MaryAnn.png"
   },
 
   {
     "id": 4,
     "name": "Ginger",
-    "image": "/images/Ginger.png"
+    "image": "./images/Ginger.png"
   },
   
   {
     "id": 5,
     "name": "Gilligan Musketeer",
-    "image": "/images/GilliganMusk.png"
+    "image": "./images/GilliganMusk.png"
   },
 
   {
     "id": 6,
     "name": "Skipper",
-    "image": "/images/Skipper.png"
+    "image": "./images/Skipper.png"
   },
 
 
   {
     "id": 7,
     "name": "Professor",
-    "image": "/images/Professor.png"
+    "image": "./images/Professor.png"
   },
   
   {
     "id": 8,
     "name": "Mr. Howell",
-    "image": "/images/Mr.Howell.png"
+    "image": "./images/Mr.Howell.png"
   },
 
   {
